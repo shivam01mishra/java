@@ -16,20 +16,21 @@ class person{
 class student extends person{
    int rollNo;
    
-    public void setData(String name, int age,int rollNo)
+    public void setData(String name, int age,int rollNo)// function overloading 
     {
         super.name=name;
         super.age=age;
         this.rollNo=rollNo;
     }
-    
+    @Override
     public void showData()
     {
         System.out.println("name :"+name);
         System.out.println("age :"+age);
+        System.out.println("rollNo :"+rollNo);
     }
 }
-public class functionOverloading {
+public class OverloadingAndOverriding {
     public static void main(String []args)
     {
         person p1=new person();
