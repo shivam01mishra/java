@@ -34,20 +34,30 @@ public class stack {
         System.out.println(temp.val+"-> ");
         temp=temp.next;
     }
+    
    }
+
+   public int top()
+    {
+        return head.val;
+     
+    }
+  
 public static void main(String []args)
-{  stack ls= new stack();
+{  stack st= new stack();
      for(int i=0;i<10;i++)
       {
-        ls.push(i); 
+        st.push(i); 
       }
-    ls.printlist();
+    st.printlist();
 
     for(int i=0;i<5;i++)
     {
-        ls.pop();
+        st.pop();
     }
-    ls.printlist(); 
+    st.printlist(); 
+
+    System.out.println(st.top());
 }
     
 }
