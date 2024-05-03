@@ -50,11 +50,6 @@ public class linkedList {
         {
             ls.deletFront();
         }
-        ls.printlist();
-
-
-        
-       
-       
+        ls.printlist(); 
     }
 }
