@@ -37,8 +37,5 @@ public class linkedList {
             System.out.println(temp.val+"-> ");
             temp=temp.next;
         }
-       }
-    public static void main(String []args)
-    {  
-    }
+       } 
 }
