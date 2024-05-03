@@ -43,22 +43,10 @@ public class stack {
      
     }
   
-public static void main(String []args)
-{  stack st= new stack();
-     for(int i=0;i<10;i++)
-      {
-        st.push(i); 
-      }
-    st.printlist();
-
-    for(int i=0;i<5;i++)
-    {
-        st.pop();
-    }
-    st.printlist(); 
-
-    System.out.println(st.top());
-}
+ public static void main(String []args)
+  {  
+     
+ }
     
 }
  

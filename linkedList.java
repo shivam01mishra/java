@@ -39,17 +39,6 @@ public class linkedList {
         }
        }
     public static void main(String []args)
-    {  linkedList ls= new linkedList();
-         for(int i=0;i<10;i++)
-          {
-            ls.pushFront(i); 
-          }
-        ls.printlist();
-
-        for(int i=0;i<5;i++)
-        {
-            ls.deletFront();
-        }
-        ls.printlist(); 
+    {  
     }
 }
