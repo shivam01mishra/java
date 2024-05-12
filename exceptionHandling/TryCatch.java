@@ -15,6 +15,7 @@ public class TryCatch {
         {
             System.out.println("thise code throwing exception "+e);
         }
+        System.out.println("exicution completed");
     }
     
 }
